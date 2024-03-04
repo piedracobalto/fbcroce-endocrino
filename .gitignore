@@ -1,0 +1,8 @@
+node_modules
+/vendor/
+.env
+/node_modules/
+/storage/
+/public/storage/
+/config/*.php
+public/hot

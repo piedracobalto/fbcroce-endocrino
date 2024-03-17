@@ -6,7 +6,19 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        color_principal: '#907EE9', 
+        color_fondo: '#FFEEFF', 
+        color_tipografia: '#1D1C29', 
+        color_icono: '#71F0C0', 
+        color_subitutlo: '#0247FF', 
+      },
+      fontFamily: {
+        titulo: ['Neuton'],
+        texto: ["Rubrik"],
+      },
+    },
   },
   plugins: [],
 }

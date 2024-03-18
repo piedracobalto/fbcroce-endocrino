@@ -13,16 +13,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
-        <title>FB endocrino</title>
-
-
+        <title>FC endocrino</title>
         
     </head>
     <body class="font-texto text-color_tipografia bg-color_fondo">
-
         <div id="app" class="mx-auto w-full max-w-screen-lg">
             <x-home.navbar />
-           
     
             <!-- Contenido principal (mantén el resto del contenido igual) -->
             <div class="container mx-auto mt-4">
@@ -35,10 +31,6 @@
             <x-home.footer />
             
         </div>
-
-        
-    
-    
     
     </body>
 </html>

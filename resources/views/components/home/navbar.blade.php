@@ -2,7 +2,7 @@
     <!-- Header con botón de hamburguesa -->
     <header class="bg-color_principal font-texto text-color_tipografia p-4 text-white">
         <div class="flex items-center justify-between">
-            <h1 class="font-titulo text-3xl font-bold">FB-Endocrino</h1>
+            <h1 class="font-titulo text-3xl font-bold">FC-Endocrino</h1>
 
             <!-- Botón de hamburguesa para dispositivos móviles -->
             <button id="toggleMenu" class="md:hidden text-white focus:outline-none">
@@ -51,15 +51,15 @@
         const navItems = document.querySelectorAll('.nav-item');
 
         function handleMenuClick(target) {
-            // Remover la clase 'text-red-500' de todos los elementos
-            navItems.forEach(navItem => navItem.classList.remove('text-red-500'));
-            // Agregar la clase 'text-red-500' al elemento clicado en ambos menús
+            // Remover la clase 'text-color_fondo' de todos los elementos
+            navItems.forEach(navItem => navItem.classList.remove('text-color_fondo'));
+            // Agregar la clase 'text-color_fondo' al elemento clicado en ambos menús
             const matchingNavItem = document.querySelector(`[data-target="${target}"]`);
-            matchingNavItem.classList.add('text-red-500');
+            matchingNavItem.classList.add('text-color_fondo');
 
             // También, aplicar el mismo cambio al menú de hamburguesa
             const matchingMobileNavItem = document.querySelector(`#mobileMenu [data-target="${target}"]`);
-            matchingMobileNavItem.classList.add('text-red-500');
+            matchingMobileNavItem.classList.add('text-color_fondo');
         }
 
         toggleMenuBtn.addEventListener('click', function () {

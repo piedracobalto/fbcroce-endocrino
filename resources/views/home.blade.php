@@ -18,7 +18,7 @@
 
         
     </head>
-    <body class="bg-gray-100">
+    <body class="font-texto text-color_tipografia bg-color_fondo">
 
         <div id="app" class="mx-auto w-full max-w-screen-lg">
             <x-home.navbar />

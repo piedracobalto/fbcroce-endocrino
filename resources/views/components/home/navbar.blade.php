@@ -1,8 +1,8 @@
 <div>
     <!-- Header con botón de hamburguesa -->
-    <header class="bg-blue-500 p-4 text-white">
+    <header class="bg-color_principal font-texto text-color_tipografia p-4 text-white">
         <div class="flex items-center justify-between">
-            <h1 class="text-3xl font-bold">FB-Endocrino</h1>
+            <h1 class="font-titulo text-3xl font-bold">FB-Endocrino</h1>
 
             <!-- Botón de hamburguesa para dispositivos móviles -->
             <button id="toggleMenu" class="md:hidden text-white focus:outline-none">
@@ -13,16 +13,16 @@
 
             <!-- Menú de navegación para escritorio -->
             <nav class="hidden md:flex items-center space-x-4">
-                <a href="#" class="hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
-                <a href="#" class="hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
-                <a href="#" class="hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
-                <a href="#" class="hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
+                <a href="#" class="font-texto hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
+                <a href="#" class="font-texto hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
+                <a href="#" class="font-texto hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
+                <a href="#" class="font-texto hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
             </nav>
         </div>
     </header>
 
     <!-- Menú lateral para dispositivos móviles -->
-    <nav id="mobileMenu" class="md:hidden fixed top-0 right-0 h-full w-1/2 bg-blue-500 text-white p-4 transform translate-x-full transition-transform ease-in-out duration-300">
+    <nav id="mobileMenu" class="md:hidden fixed top-0 right-0 h-full w-1/2 bg-color_principal text-white p-4 transform translate-x-full transition-transform ease-in-out duration-300">
         <div class="flex justify-end">
             <button id="closeMenu" class="text-white focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -33,10 +33,10 @@
 
         <!-- Menú de navegación para dispositivos móviles -->
         <div class="flex flex-col items-center mt-8 space-y-4">
-            <a href="#" class="hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
-            <a href="#" class="hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
-            <a href="#" class="hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
-            <a href="#" class="hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
+            <a href="#" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
+            <a href="#" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
+            <a href="#" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
+            <a href="#" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
         </div>
     </nav>
 

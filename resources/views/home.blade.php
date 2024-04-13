@@ -19,7 +19,6 @@
     <body class="flex font-texto text-color_tipografia bg-color_fondo">
         <div id="app" class="flex flex-col mx-auto w-full max-w-screen-lg">
             <x-home.navbar />
-    
             <!-- Contenido principal (mantén el resto del contenido igual) -->
             <div class="container mx-auto mt-4">
                 <main class="bg-white p-4 shadow-md rounded-md">

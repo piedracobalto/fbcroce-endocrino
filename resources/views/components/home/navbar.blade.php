@@ -1,6 +1,6 @@
 <div>
     <!-- Header con botón de hamburguesa -->
-    <header class="bg-color_principal font-texto text-color_tipografia p-4 text-white">
+    <header class="bg-color_principal font-texto text-color_tipografia p-4">
         <div class="flex items-center justify-between">
             <h1 class="font-titulo text-3xl font-bold">FC-Endocrino</h1>
 
@@ -13,10 +13,10 @@
 
             <!-- Menú de navegación para escritorio -->
             <nav class="hidden md:flex items-center space-x-4">
-                <a href="{{route("home")}}" class="font-texto hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
-                <a href="{{route("acerca")}}" class="font-texto hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
-                <a href="{{route("servicios")}}" class="font-texto hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
-                <a href="{{route("contacto")}}" class="font-texto hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
+                <a href="{{ route('home') }}" class="font-texto {{ Route::currentRouteName() == 'home' ? 'text-white' : 'text-color_tipografia hover:text-gray-300' }} nav-item" data-target="inicio">Inicio</a>
+                <a href="{{ route('acerca') }}" class="font-texto {{ Route::currentRouteName() == 'acerca' ? 'text-white' : 'text-color_tipografia hover:text-gray-300' }} nav-item" data-target="acerca">Acerca de</a>
+                <a href="{{ route('servicios') }}" class="font-texto {{ Route::currentRouteName() == 'servicios' ? 'text-white' : 'text-color_tipografia hover:text-gray-300' }} nav-item" data-target="servicios">Servicios</a>
+                <a href="{{ route('contacto') }}" class="font-texto {{ Route::currentRouteName() == 'contacto' ? 'text-white' : 'text-color_tipografia hover:text-gray-300' }} nav-item" data-target="contacto">Contacto</a>
             </nav>
         </div>
     </header>
@@ -33,15 +33,12 @@
 
         <!-- Menú de navegación para dispositivos móviles -->
         <div class="flex flex-col items-center mt-8 space-y-4">
-            <a href="{{route("home")}}" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
-            <a href="{{route("acerca")}}" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
-            <a href="{{route("servicios")}}" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
-            <a href="{{route("contacto")}}" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
+            <a href="{{ route('home') }}" class="font-texto {{ Route::currentRouteName() == 'home' ? 'text-white' : 'text-color_tipografia hover:text-gray-300' }} nav-item" data-target="inicio">Inicio</a>
+            <a href="{{ route('acerca') }}" class="font-texto {{ Route::currentRouteName() == 'acerca' ? 'text-white' : 'text-color_tipografia hover:text-gray-300' }} nav-item" data-target="acerca">Acerca de</a>
+            <a href="{{ route('servicios') }}" class="font-texto {{ Route::currentRouteName() == 'servicios' ? 'text-white' : 'text-color_tipografia hover:text-gray-300' }} nav-item" data-target="servicios">Servicios</a>
+            <a href="{{ route('contacto') }}" class="font-texto {{ Route::currentRouteName() == 'contacto' ? 'text-white' : 'text-color_tipografia hover:text-gray-300' }} nav-item" data-target="contacto">Contacto</a>
         </div>
     </nav>
-
-    <!-- Menú lateral para dispositivos móviles -->
-    <!-- ... (código del menú lateral) ... -->
 
     <!-- Script para manejar la apertura y cierre del menú lateral y el marcado del elemento seleccionado -->
     <script>
@@ -49,18 +46,6 @@
         const closeMenuBtn = document.getElementById('closeMenu');
         const mobileMenu = document.getElementById('mobileMenu');
         const navItems = document.querySelectorAll('.nav-item');
-
-        function handleMenuClick(target) {
-            // Remover la clase 'text-color_fondo' de todos los elementos
-            navItems.forEach(navItem => navItem.classList.remove('text-color_fondo'));
-            // Agregar la clase 'text-color_fondo' al elemento clicado en ambos menús
-            const matchingNavItem = document.querySelector(`[data-target="${target}"]`);
-            matchingNavItem.classList.add('text-color_fondo');
-
-            // También, aplicar el mismo cambio al menú de hamburguesa
-            const matchingMobileNavItem = document.querySelector(`#mobileMenu [data-target="${target}"]`);
-            matchingMobileNavItem.classList.add('text-color_fondo');
-        }
 
         toggleMenuBtn.addEventListener('click', function () {
             mobileMenu.style.transform = 'translateX(0)';
@@ -72,8 +57,6 @@
 
         navItems.forEach(item => {
             item.addEventListener('click', function () {
-                const target = this.getAttribute('data-target');
-                handleMenuClick(target);
 
                 // Cerrar el menú lateral en dispositivos móviles
                 mobileMenu.style.transform = 'translateX(100%)';

@@ -16,8 +16,8 @@
         <title>FC endocrino</title>
         
     </head>
-    <body class="font-texto text-color_tipografia bg-color_fondo">
-        <div id="app" class="mx-auto w-full max-w-screen-lg">
+    <body class="flex font-texto text-color_tipografia bg-color_fondo">
+        <div id="app" class="flex flex-col mx-auto w-full max-w-screen-lg">
             <x-home.navbar />
     
             <!-- Contenido principal (mantén el resto del contenido igual) -->

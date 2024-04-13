@@ -13,10 +13,10 @@
 
             <!-- Menú de navegación para escritorio -->
             <nav class="hidden md:flex items-center space-x-4">
-                <a href="#" class="font-texto hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
-                <a href="#" class="font-texto hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
-                <a href="#" class="font-texto hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
-                <a href="#" class="font-texto hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
+                <a href="{{route("home")}}" class="font-texto hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
+                <a href="{{route("acerca")}}" class="font-texto hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
+                <a href="{{route("servicios")}}" class="font-texto hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
+                <a href="{{route("contacto")}}" class="font-texto hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
             </nav>
         </div>
     </header>
@@ -33,10 +33,10 @@
 
         <!-- Menú de navegación para dispositivos móviles -->
         <div class="flex flex-col items-center mt-8 space-y-4">
-            <a href="#" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
-            <a href="#" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
-            <a href="#" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
-            <a href="#" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
+            <a href="{{route("home")}}" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="inicio">Inicio</a>
+            <a href="{{route("acerca")}}" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="acerca">Acerca de</a>
+            <a href="{{route("servicios")}}" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="servicios">Servicios</a>
+            <a href="{{route("contacto")}}" class="font-texto text-color_tipografia hover:text-gray-300 nav-item" data-target="contacto">Contacto</a>
         </div>
     </nav>
 

@@ -22,8 +22,14 @@
             <!-- Contenido principal (mantén el resto del contenido igual) -->
             <div class="container mx-auto mt-4">
                 <main class="bg-white p-4 shadow-md rounded-md">
-                    <!-- Contenido principal -->
-                    @yield('content')
+                    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                        <section class="flex justify-center bg-gray-100 py-16">
+                            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                                <!-- Contenido principal -->
+                                @yield('content')
+                            </div>
+                        </section>
+                    </div>
                 </main>
             </div>
     

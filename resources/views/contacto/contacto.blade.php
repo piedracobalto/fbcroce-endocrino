@@ -1,25 +1,12 @@
 @extends('home')
 
 @section('content')
-    <h2 class="text-center text-3xl font-bold text-gray-800 mb-8">Contáctame</h2>
+    <h2 class="text-center text-3xl font-bold text-gray-800 mb-8">Contactame</h2>
     <p class="text-justify text-gray-600 mb-8">
         Si tenés alguna pregunta, duda o simplemente querés ponerte en contacto, no dudes en comunicarte conmigo a través de los siguientes medios.
     </p>
     {{-- GALERIA CARDS --}}
     <div class="flex justify-around flex-wrap">
-        {{-- TELEFONO --}}
-        <div class="flex justify-center bg-white shadow-md rounded-lg p-6 w-96 mb-4 lg:mb-4">
-            <div class="flex flex-col text-center lg:flex-row items-center">
-                <svg class="flex  h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                <div>
-                    <h3 class="text-lg font-bold text-gray-800 my-1">Whatsapp</h3>
-                    <a href="https://wa.link/iifmse">+54-11-3381-5956</a> 
-                </div>
-            </div>
-        </div>
-        {{-- FIN TELEFONO --}}
         {{-- MAIL --}}
         <div class="flex justify-center bg-white shadow-md rounded-lg p-6 w-96 mb-4 lg:mb-4">
             <div class="flex flex-col text-center lg:flex-row items-center">

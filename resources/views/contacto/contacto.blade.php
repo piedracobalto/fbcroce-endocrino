@@ -2,8 +2,11 @@
 
 @section('content')
     <h2 class="text-center text-3xl font-bold text-gray-800 mb-8">Contactame</h2>
-    <p class="text-justify text-gray-600 mb-8">
+    <p class="text-center text-gray-600 mb-8">
         Si tenés alguna pregunta, duda o simplemente querés ponerte en contacto, no dudes en comunicarte conmigo a través de los siguientes medios.
+    </p>
+    <p class="text-center text-gray-600 mb-8">
+        Atención particular, Consultar prepagas.
     </p>
     {{-- GALERIA CARDS --}}
     <div class="flex justify-around flex-wrap">

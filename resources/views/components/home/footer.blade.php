@@ -11,16 +11,15 @@
 
         <!-- Contacto -->
         <div class="flex flex-col text-center md:text-right space-y-1 font-Rubrik text-sm text-[#1D1C29]">
-            <p>📍 Dirección, Ciudad</p>
-            <p>📞 +54 11 1234-5678</p>
-            <p>✉️ contacto@fc-endocrino.com</p>
+            <p>📍 Bolívar 1740. Planta Baja "E" - Barracas (CABA)</p>
+            <p>✉️ <a href="mailto:fbcroce.endocrino@gmail.com">fbcroce.endocrino@gmail.com</a></p>
         </div>
     </div>
 
     <!-- Línea inferior -->
     <div class="border-t border-[#907EE9] mt-4 rounded-b-xl">
         <p class="text-center text-[#1D1C29] text-sm py-2 font-Rubrik">
-            &copy; {{ date('Y') }} FC-Endocrino. Todos los derechos reservados.
+            &copy; {{ date('Y') }} FC-Endocrino. Todos los derechos reservados. Hecho Por Pedro Cuomo Ghio
         </p>
     </div>
 </footer>

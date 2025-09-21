@@ -15,21 +15,41 @@
         </div>
     </div>
 
-    <p class="mb-2">La endocrinología es la especialidad médica dedicada a estudiar las glándulas del sistema endocrino y el metabolismo.</p>
-    <ul class="pl-3">
-        <li><span class="mr-2">🩺</span>Acné, exceso de vello (hirsutismo)</li>
-        <li><span class="mr-2">🩺</span>Alteración del ciclo menstrual</li>
-        <li><span class="mr-2">🩺</span>Alteraciones de la glándula hipófisis.</li>
-        <li><span class="mr-2">🩺</span>Alteraciones de la libido</li>
-        <li><span class="mr-2">🩺</span>Alteraciones de las glándulas suprarrenales</li>
-        <li><span class="mr-2">🩺</span>Alteraciones de paratiroides</li>
-        <li><span class="mr-2">🩺</span>Alteraciones del colesterol</li>
-        <li><span class="mr-2">🩺</span>Déficit de vitamina D</li>
-        <li><span class="mr-2">🩺</span>Diabetes, insulino resistencia</li>
-        <li><span class="mr-2">🩺</span>Disfunción erectil</li>
-        <li><span class="mr-2">🩺</span>Ginecomastia</li>
-        <li><span class="mr-2">🩺</span>Hipotiroidismo | Hipertiroidismo</li>
-        <li><span class="mr-2">🩺</span>Nódulos tiroideos | Osteoporosis</li>
-        <li><span class="mr-2">🩺</span>Ovárico poliquístico | Climaterio</li>
-    </ul>
+    <!-- ¿Qué es la endocrinología? -->
+    <div class="mb-8">
+        <h3 class="text-xl font-semibold text-gray-700 mb-2">🔎 ¿Qué es la endocrinología?</h3>
+        <p class="text-gray-700 text-justify">
+            La endocrinología es la especialidad médica que estudia las glándulas del sistema endocrino y el metabolismo. Estas glándulas regulan funciones esenciales del cuerpo, y sus alteraciones pueden impactar en la salud de manera significativa.
+        </p>
+    </div>
+
+    <!-- Áreas de atención -->
+    <div>
+        <h3 class="text-xl font-semibold text-gray-700 mb-4">🩺 Áreas de atención</h3>
+        <p class="text-gray-700 mb-4">
+            Me dedico al diagnóstico, tratamiento y seguimiento de distintas enfermedades endocrinas y metabólicas:
+        </p>
+
+        <!-- Lista de servicios -->
+        <ul class="list-disc list-inside space-y-3 text-gray-700">
+            <li>
+                <strong>Salud ósea y metabolismo mineral:</strong> osteoporosis, osteopenia, déficit de vitamina D, alteraciones de paratiroides.
+            </li>
+            <li>
+                <strong>Tiroides:</strong> hipotiroidismo, hipertiroidismo, nódulos tiroideos.
+            </li>
+            <li>
+                <strong>Metabolismo y nutrición:</strong> diabetes, insulino resistencia, alteraciones del colesterol.
+            </li>
+            <li>
+                <strong>Gónadas y salud reproductiva:</strong> síndrome de ovario poliquístico, alteraciones del ciclo menstrual, climaterio, alteraciones de la libido, disfunción eréctil, ginecomastia.
+            </li>
+            <li>
+                <strong>Hipófisis y suprarrenales:</strong> acromegalia, prolactinoma, enfermedad de Cushing, insuficiencia suprarrenal.
+            </li>
+            <li>
+                <strong>Dermatología endocrina:</strong> acné, exceso de vello (hirsutismo).
+            </li>
+        </ul>
+    </div>
 @endsection

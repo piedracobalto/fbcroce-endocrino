@@ -10,7 +10,7 @@
 </div>
 
 <h2 class="text-center text-3xl mt-2 font-bold text-gray-800 mb-2">
-    Equilibrio Hormonal. Salud Total
+    Dra. Florencia Croce
 </h2>
 
 <p class="text-center text-gray-600 mb-4 max-w-3xl mx-auto">

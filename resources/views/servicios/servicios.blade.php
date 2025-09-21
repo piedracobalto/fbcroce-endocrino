@@ -1,9 +1,19 @@
 @extends('home')
 
 @section('content')
-    <h2 class="text-center text-3xl font-bold text-gray-800 mb-8">Servicios</h2>
-    
-    <h3 class="text-center text-2xl font-bold text-gray-800 mb-8">Consultas virtuales de endocrinología</h3>
+    <h2 class="text-center text-3xl font-bold text-gray-800 mb-2">Servicios</h2>
+
+    <h3 class="text-center text-2xl font-bold text-gray-800 mb-8">Consultas presenciales y virtuales de endocrinología</h3>
+
+    <div class="flex justify-center items-center mb-4">
+        <div class="w-80 h-80  rounded-lg overflow-hidden">
+            <img 
+                src="{{ asset('img/oficina.webp') }}" 
+                alt="oficina" 
+                class="object-contain w-full h-full"
+            >
+        </div>
+    </div>
 
     <p class="mb-2">La endocrinología es la especialidad médica dedicada a estudiar las glándulas del sistema endocrino y el metabolismo.</p>
     <ul class="pl-3">

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        @vite('resources/css/app.css')
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,26 +16,23 @@
         <title>FC endocrino</title>
         
     </head>
-    <body class="flex font-texto text-color_tipografia bg-color_fondo">
-        <div id="app" class="flex flex-col mx-auto w-full max-w-screen-lg">
-            <x-home.navbar />
-            <!-- Contenido principal (mantén el resto del contenido igual) -->
-            <div class="container mx-auto mt-4">
-                <main class="bg-white p-4 shadow-md rounded-md">
-                    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <section class="flex justify-center bg-gray-100 py-16">
-                            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                                <!-- Contenido principal -->
-                                @yield('content')
-                            </div>
-                        </section>
-                    </div>
-                </main>
-            </div>
-    
-            <x-home.footer />
+    <body class="flex font-texto text-color_tipografia bg-color_fondo min-h-screen">
+        <div id="app" class="flex flex-col mx-auto w-full max-w-screen-xl">
             
+            <!-- NAVBAR -->
+            <x-home.navbar />
+
+            <!-- CONTENIDO PRINCIPAL -->
+            <main class="flex-1">
+                <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
+                    <section class="bg-white rounded-2xl shadow-lg p-6 md:p-10">
+                        @yield('content')
+                    </section>
+                </div>
+            </main>
+
+            <!-- FOOTER -->
+            <x-home.footer />
         </div>
-    
     </body>
 </html>

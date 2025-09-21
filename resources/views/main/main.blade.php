@@ -1,12 +1,19 @@
 @extends('home')
 
 @section('content')
-    
-<div class="">
-    <img src="{{ asset('storage/img/logo-portada.webp') }}" alt="logo_portada" class="">
+<div class="flex justify-center mt-4 mb-4">
+    <img 
+        src="{{ asset('img/logo.webp') }}" 
+        alt="logo_portada" 
+        class="w-full max-w-3xl h-48 object-contain"
+    >
 </div>
-<h2 class="text-center text-3xl mt-10 font-bold text-gray-800 mb-8">Equilibrio Hormonal. Salud Total</h2>
-<p class="text-justify text-gray-600 mb-8">
+
+<h2 class="text-center text-3xl mt-2 font-bold text-gray-800 mb-2">
+    Equilibrio Hormonal. Salud Total
+</h2>
+
+<p class="text-center text-gray-600 mb-4 max-w-3xl mx-auto">
     "Ofrecemos atención médica personalizada para el diagnóstico y tratamiento de enfermedades endocrinas."
 </p>
 @endsection

@@ -15,8 +15,8 @@ export default {
         color_subitutlo: '#0247FF', 
       },
       fontFamily: {
-        titulo: ['Neuton'],
-        texto: ["Rubrik"],
+        titulo: ['Futura', 'sans-serif'],
+        texto: ['Futura', 'sans-serif'],
       },
     },
   },

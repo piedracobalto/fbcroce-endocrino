@@ -19,7 +19,7 @@
     <!-- Línea inferior -->
     <div class="border-t border-[#907EE9] mt-4 rounded-b-xl">
         <p class="text-center text-[#1D1C29] text-sm py-2 font-Rubrik">
-            &copy; {{ date('Y') }} FC-Endocrino. Todos los derechos reservados. Hecho Por Pedro Cuomo Ghio
+            &copy; {{ date('Y') }} FBC-Endocrino. Todos los derechos reservados. Hecho Por Pedro Cuomo Ghio
         </p>
     </div>
 </footer>

@@ -48,7 +48,7 @@
                 </svg>
                 <div>
                     <h3 class="text-lg font-bold text-gray-800 my-1">Linkedin</h3>
-                    <a class="break-all" href="https://www.linkedin.com/in/florencia-croce-8315701b8/">Florencia Croce</a>
+                    <a class="break-all" href="https://www.linkedin.com/in/florencia-bel%C3%A9n-croce-8315701b8/">Florencia Croce</a>
                 </div>
             </div>
         </div>

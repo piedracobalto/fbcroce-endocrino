@@ -5,7 +5,7 @@
             
             <!-- Logo / Nombre -->
             <h1 class="font-titulo text-2xl md:text-3xl font-bold text-white tracking-wide">
-                FC-Endocrino
+                FBC-Endocrino
             </h1>
 
             <!-- Botón de hamburguesa (móvil) -->

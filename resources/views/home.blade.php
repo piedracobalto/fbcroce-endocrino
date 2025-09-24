@@ -15,7 +15,7 @@
     
 
 
-        <title>FC endocrino</title>
+        <title>FBC Endocrino</title>
         
     </head>
     <body class="flex font-texto text-color_tipografia bg-color_fondo min-h-screen">
